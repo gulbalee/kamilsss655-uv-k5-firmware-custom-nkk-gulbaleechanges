@@ -53,7 +53,7 @@ ENABLE_ENCRYPTION                       := 1
 
 #############################################################
 
-AUTHOR_STRING := NKK
+AUTHOR_STRING := NKK-ap2x-f-lock
 # the user might not have/want git installed
 # can set own version string here (max 7 chars)
 #ifneq (, $(shell $(WHERE) git))

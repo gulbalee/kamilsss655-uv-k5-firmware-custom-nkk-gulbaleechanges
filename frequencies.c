@@ -188,9 +188,9 @@ int TX_freq_check(const uint32_t Frequency)
 			break;
 
 		case F_LOCK_GB:
-			if (Frequency >= 14400000 && Frequency < 14800000)
+			if (Frequency >= 14400000 && Frequency < 15900000)
 				return 0;
-			if (Frequency >= 43000000 && Frequency < 44000000)
+			if (Frequency >= 43000000 && Frequency < 47000000)
 				return 0;
 			break;
 
